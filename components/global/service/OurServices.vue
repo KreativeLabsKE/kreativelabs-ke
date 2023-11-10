@@ -10,7 +10,8 @@
           <h2
             class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200"
           >
-            Fully customizable rules to match your unique needs
+            Find out how we can help you succeed with our full range of services
+            here.
           </h2>
 
           <!-- Tab Navs -->
@@ -55,12 +56,12 @@
                 <span class="grow ms-6">
                   <span
                     class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                    >Advanced tools</span
+                    >Web Application Development</span
                   >
                   <span
                     class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200"
-                    >Use Preline thoroughly thought and automated libraries to
-                    manage your businesses.</span
+                    >Crafting scalable and responsive web applications tailored
+                    to your business requirements.</span
                   >
                 </span>
               </span>
@@ -93,12 +94,12 @@
                 <span class="grow ms-6">
                   <span
                     class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                    >Smart dashboards</span
+                    >Mobile App Development</span
                   >
                   <span
                     class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200"
-                    >Quickly Preline sample components, copy-paste codes, and
-                    start right off.</span
+                    >Building native and cross-platform mobile applications that
+                    deliver seamless user experiences.</span
                   >
                 </span>
               </span>
@@ -136,12 +137,12 @@
                 <span class="grow ms-6">
                   <span
                     class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                    >Powerful features</span
+                    >UI/UX</span
                   >
                   <span
                     class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200"
-                    >Reduce time and effort on building modern look design with
-                    Preline only.</span
+                    >Creating stunning and user-friendly interfaces through
+                    collaborative design using Figma.</span
                   >
                 </span>
               </span>

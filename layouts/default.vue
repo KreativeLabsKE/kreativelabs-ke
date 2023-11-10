@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Footer from "~/components/global/Footer.vue";
 useHead({
   htmlAttrs: {
     lang: "en",
@@ -43,5 +44,6 @@ defineOgImage({
 <template>
   <main class="max-w-[90rem] mx-auto">
     <slot />
+    <Footer />
   </main>
 </template>
