@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-og-image", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-og-image", "@nuxt/image", "nuxt-icon"],
   hooks: {
     "components:dirs": (dirs) => {
       dirs.unshift({
