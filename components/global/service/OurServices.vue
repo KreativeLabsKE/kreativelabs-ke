@@ -1,3 +1,21 @@
+<script setup>
+const currentAnimation = ref("/lotties/web.json");
+const animeType = useState("animeType", () => "web");
+
+const animationDB = useState("animationDB", () => {
+  return {
+    web: "/lotties/web.json",
+    mobile: "/lotties/mobile.json",
+    figma: "/lotties/figma.json",
+  };
+});
+
+const setCurrentAnimation = (animationType) => {
+  currentAnimation.value = animationDB.value[animationType];
+  animeType.value = animationType;
+};
+</script>
+
 <template>
   <!-- Features -->
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -27,6 +45,7 @@
               data-hs-tab="#tabs-with-card-1"
               aria-controls="tabs-with-card-1"
               role="tab"
+              @click="setCurrentAnimation('web')"
             >
               <span class="flex">
                 <Icon
@@ -48,6 +67,7 @@
             </button>
 
             <button
+              @click="setCurrentAnimation('mobile')"
               type="button"
               class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               id="tabs-with-card-item-2"
@@ -75,6 +95,7 @@
             </button>
 
             <button
+              @click="setCurrentAnimation('figma')"
               type="button"
               class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               id="tabs-with-card-item-3"
@@ -124,17 +145,19 @@
         <div class="lg:col-span-6">
           <div class="relative">
             <!-- Tab Content -->
-            <div>
+            <div class="ml-20">
               <div
                 id="tabs-with-card-1"
                 role="tabpanel"
                 aria-labelledby="tabs-with-card-item-1"
               >
-                <img
-                  class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                  src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                  alt="Image Description"
-                />
+                <client-only>
+                  <Vue3Lottie
+                    :animationLink="currentAnimation"
+                    :height="500"
+                    :width="500"
+                  />
+                </client-only>
               </div>
 
               <div
