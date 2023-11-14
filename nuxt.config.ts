@@ -27,7 +27,7 @@ export default defineNuxtConfig({
         wght: [100, 400],
         ital: [100],
       },
-      Agbalum: {
+      Agbalumo: {
         wght: [400],
       },
     },

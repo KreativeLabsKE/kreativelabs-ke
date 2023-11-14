@@ -37,13 +37,65 @@
         <!-- Title -->
         <div class="mt-5 max-w-2xl text-center mx-auto">
           <h1
-            class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200"
+            class="block font-extrabold [text-wrap:balance] text-gray-800 text-4xl md:text-5xl lg:text-5xl text-center"
           >
-            Let's Build
+            Lets Build
             <span
-              class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
-              >Together</span
+              class="inline-flex flex-col items-center h-[calc(theme(fontSize.3xl)*theme(lineHeight.loose))] overflow-hidden"
             >
+              <ul
+                class="block text-left leading-tight [&_li]:block animate-text-slide"
+              >
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Together
+                  </span>
+                  🤝
+                </li>
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Legacy
+                  </span>
+                  🏰
+                </li>
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Tomorrow
+                  </span>
+                  🚀
+                </li>
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Solutions
+                  </span>
+                  💡
+                </li>
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Innovations
+                  </span>
+                  🤯
+                </li>
+                <li>
+                  <span
+                    class="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"
+                  >
+                    Creativity
+                  </span>
+                  🎨
+                </li>
+              </ul>
+            </span>
           </h1>
         </div>
         <!-- End Title -->
@@ -78,3 +130,40 @@
     <!-- End Hero -->
   </section>
 </template>
+
+<style scope>
+.animate-text-slide {
+  animation: text-slide 13.5s cubic-bezier(0.83, 0, 0.17, 1) infinite;
+}
+
+@keyframes text-slide {
+  0%,
+  16% {
+    transform: translateY(0%);
+  }
+
+  20%,
+  35% {
+    transform: translateY(-16.66%);
+  }
+
+  40%,
+  55% {
+    transform: translateY(-33.33%);
+  }
+
+  60%,
+  75% {
+    transform: translateY(-50%);
+  }
+
+  80%,
+  95% {
+    transform: translateY(-66.66%);
+  }
+
+  100% {
+    transform: translateY(-83.33%);
+  }
+}
+</style>
