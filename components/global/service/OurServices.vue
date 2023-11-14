@@ -26,7 +26,7 @@ const setCurrentAnimation = (animationType) => {
       >
         <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
           <h2
-            class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200"
+            class="text-3xl font-agbalumo text-gray-800 font-bold sm:text-3xl dark:text-gray-200"
           >
             Find out how we can help you succeed with our full range of services
             here.

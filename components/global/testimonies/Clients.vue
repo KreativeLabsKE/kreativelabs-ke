@@ -27,50 +27,79 @@
           See what others are saying
         </h2>
 
-        <div class="bg-black">
+        <div class="mt-12">
           <div class="relative flex items-center">
             <div class="relative flex max-w-[100vw] overflow-hidden py-5">
-              <div class="flex w-max animate-marquee [--duration:30s] hover:[animation-play-state:paused]">
+              <div
+                class="flex w-max animate-marquee [--duration:30s] hover:[animation-play-state:paused]"
+              >
                 <div class="h-full px-2.5">
-                  <div class="relative h-full w-[28rem] rounded-2xl border border-white/5 bg-white/5 px-8 py-6">
-                    <div class="pb-4 font-light text-white/75">I'm a newbie designer and this kit is just perfect. I've learnt so much and my work looks amazing now. A big thumbs up!</div>
-        
+                  <div
+                    class="relative h-full w-[28rem] rounded-2xl bg-indigo-600 border px-8 py-6"
+                  >
+                    <div class="pb-4 font-light text-white/75">
+                      I'm a newbie designer and this kit is just perfect. I've
+                      learnt so much and my work looks amazing now. A big thumbs
+                      up!
+                    </div>
+
                     <div class="mt-auto flex items-center gap-4">
-                      <img src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg" class="h-9 w-9 rounded-full" />
-        
+                      <img
+                        src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg"
+                        class="h-9 w-9 rounded-full"
+                      />
+
                       <div class="flex flex-col text-sm">
                         <div class="text-white">Jake Harris</div>
-        
+
                         <div class="text-white/75">Thompson Creative</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="h-full px-2.5">
-                  <div class="relative h-full w-[28rem] rounded-2xl border border-white/5 bg-white/5 px-8 py-6">
-                    <div class="pb-4 font-light text-white/75">I'm a newbie designer and this kit is just perfect. I've learnt so much and my work looks amazing now. A big thumbs up!</div>
-        
+                  <div
+                    class="relative h-full w-[28rem] rounded-2xl bg-indigo-600 border px-8 py-6"
+                  >
+                    <div class="pb-4 font-light text-white/75">
+                      I'm a newbie designer and this kit is just perfect. I've
+                      learnt so much and my work looks amazing now. A big thumbs
+                      up!
+                    </div>
+
                     <div class="mt-auto flex items-center gap-4">
-                      <img src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg" class="h-9 w-9 rounded-full" />
-        
+                      <img
+                        src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg"
+                        class="h-9 w-9 rounded-full"
+                      />
+
                       <div class="flex flex-col text-sm">
                         <div class="text-white">Jake Harris</div>
-        
+
                         <div class="text-white/75">Thompson Creative</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="h-full px-2.5">
-                  <div class="relative h-full w-[28rem] rounded-2xl border border-white/5 bg-white/5 px-8 py-6">
-                    <div class="pb-4 font-light text-white/75">I'm a newbie designer and this kit is just perfect. I've learnt so much and my work looks amazing now. A big thumbs up!</div>
-        
+                  <div
+                    class="relative h-full w-[28rem] rounded-2xl bg-indigo-600 border px-8 py-6"
+                  >
+                    <div class="pb-4 font-light text-white/75">
+                      I'm a newbie designer and this kit is just perfect. I've
+                      learnt so much and my work looks amazing now. A big thumbs
+                      up!
+                    </div>
+
                     <div class="mt-auto flex items-center gap-4">
-                      <img src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg" class="h-9 w-9 rounded-full" />
-        
+                      <img
+                        src="https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg"
+                        class="h-9 w-9 rounded-full"
+                      />
+
                       <div class="flex flex-col text-sm">
                         <div class="text-white">Jake Harris</div>
-        
+
                         <div class="text-white/75">Thompson Creative</div>
                       </div>
                     </div>
@@ -80,7 +109,6 @@
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   </section>
