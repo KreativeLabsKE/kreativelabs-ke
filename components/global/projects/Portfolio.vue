@@ -16,148 +16,167 @@
       </div>
       <!-- End Title -->
 
-      <!-- Grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card -->
-        <a
-          class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 p-3 border-2"
-          href="#"
+      <div class="flex justify-start w-full gap-6 pb-8 overflow-x-auto snap-x">
+        <div
+          class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6"
         >
-          <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img
-              class="w-full h-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-              src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-              alt="Image Description"
-            />
-          </div>
-
-          <div class="mt-7">
-            <h3
-              class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200"
-            >
-              Project Title
-            </h3>
-            <p class="mt-3 text-gray-800 dark:text-gray-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-              sapiente possimus quaerat soluta molestias, blanditiis facilis
-              error corporis!...
-            </p>
-            <p
-              class="mt-5 flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium"
-            >
-              <span class="block">Read more</span>
-              <svg
-                class="flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+          <div
+            class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1"
+          >
+            <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3"
+              ><img
+                class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-1.png"
+                alt="thumbnail-1"
+            /></a>
+            <div class="flex-1 px-4 py-5 sm:p-6">
+              <a href="#" title="" class="">
+                <p class="text-lg font-bold text-gray-900">
+                  How to write content about your photographs
+                </p>
+                <p
+                  class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3"
+                >
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Sit
+                  quis auctor odio arcu et dolor.
+                </p></a
               >
-                <path d="m9 18 6-6-6-6" />
-              </svg>
-            </p>
+            </div>
+            <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <p class="text-sm font-medium text-gray-900">
+                    <a href="#" title="" class="">Growth</a>
+                  </p>
+                  <span class="text-sm font-medium text-gray-900">•</span>
+                  <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                </div>
+                <a href="#" title="" class="" role="button"
+                  ><svg
+                    class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="17" y1="7" x2="7" y2="17"></line>
+                    <polyline points="8 7 17 7 17 16"></polyline></svg
+                ></a>
+              </div>
+            </div>
           </div>
-        </a>
-        <!-- End Card -->
-        <!-- Card -->
-        <a
-          class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 p-3 border-2"
-          href="#"
+        </div>
+        <div
+          class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6"
         >
-          <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img
-              class="w-full h-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-              src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-              alt="Image Description"
-            />
-          </div>
-
-          <div class="mt-7">
-            <h3
-              class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200"
-            >
-              Project Title
-            </h3>
-            <p class="mt-3 text-gray-800 dark:text-gray-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-              sapiente possimus quaerat soluta molestias, blanditiis facilis
-              error corporis!...
-            </p>
-            <p
-              class="mt-5 flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium"
-            >
-              <span class="block">Read more</span>
-              <svg
-                class="flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+          <div
+            class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1"
+          >
+            <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3"
+              ><img
+                class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-2.png"
+                alt="thumbnail-2"
+            /></a>
+            <div class="flex-1 px-4 py-5 sm:p-6">
+              <a href="#" title="" class="">
+                <p class="text-lg font-bold text-gray-900">
+                  How to write content about your photographs
+                </p>
+                <p
+                  class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3"
+                >
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Sit
+                  quis auctor odio arcu et dolor.
+                </p></a
               >
-                <path d="m9 18 6-6-6-6" />
-              </svg>
-            </p>
+            </div>
+            <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <p class="text-sm font-medium text-gray-900">
+                    <a href="#" title="" class="">Growth</a>
+                  </p>
+                  <span class="text-sm font-medium text-gray-900">•</span>
+                  <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                </div>
+                <a href="#" title="" class="" role="button"
+                  ><svg
+                    class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="17" y1="7" x2="7" y2="17"></line>
+                    <polyline points="8 7 17 7 17 16"></polyline></svg
+                ></a>
+              </div>
+            </div>
           </div>
-        </a>
-        <!-- End Card -->
-        <!-- Card -->
-        <a
-          class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 p-3 border-2"
-          href="#"
+        </div>
+        <div
+          class="relative snap-start scroll-ml-6 shrink-0 first:pl-6 last:pr-6"
         >
-          <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-            <img
-              class="w-full h-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
-              src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-              alt="Image Description"
-            />
-          </div>
-
-          <div class="mt-7">
-            <h3
-              class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200"
-            >
-              Project Title
-            </h3>
-            <p class="mt-3 text-gray-800 dark:text-gray-200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-              sapiente possimus quaerat soluta molestias, blanditiis facilis
-              error corporis!...
-            </p>
-            <p
-              class="mt-5 flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium"
-            >
-              <span class="block">Read more</span>
-              <svg
-                class="flex-shrink-0 w-4 h-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+          <div
+            class="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border border-gray-100 shadow w-60 md:w-80 group rounded-xl hover:shadow-lg hover:-translate-y-1"
+          >
+            <a href="#" title="" class="flex shrink-0 aspect-w-4 aspect-h-3"
+              ><img
+                class="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
+                src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/4/thumbnail-3.png"
+                alt="thumbnail-3"
+            /></a>
+            <div class="flex-1 px-4 py-5 sm:p-6">
+              <a href="#" title="" class="">
+                <p class="text-lg font-bold text-gray-900">
+                  How to write content about your photographs
+                </p>
+                <p
+                  class="mt-3 text-sm font-normal leading-6 text-gray-500 line-clamp-3"
+                >
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Sit
+                  quis auctor odio arcu et dolor.
+                </p></a
               >
-                <path d="m9 18 6-6-6-6" />
-              </svg>
-            </p>
+            </div>
+            <div class="px-4 py-5 mt-auto border-t border-gray-100 sm:px-6">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <p class="text-sm font-medium text-gray-900">
+                    <a href="#" title="" class="">Growth</a>
+                  </p>
+                  <span class="text-sm font-medium text-gray-900">•</span>
+                  <p class="text-sm font-medium text-gray-900">7 Mins Read</p>
+                </div>
+                <a href="#" title="" class="" role="button"
+                  ><svg
+                    class="w-5 h-5 text-gray-300 transition-all duration-200 group-hover:text-gray-900"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="17" y1="7" x2="7" y2="17"></line>
+                    <polyline points="8 7 17 7 17 16"></polyline></svg
+                ></a>
+              </div>
+            </div>
           </div>
-        </a>
-        <!-- End Card -->
+        </div>
       </div>
-      <!-- End Grid -->
     </div>
     <!-- End Card Blog -->
   </section>

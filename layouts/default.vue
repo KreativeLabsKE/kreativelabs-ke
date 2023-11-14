@@ -42,7 +42,7 @@ defineOgImage({
 </script>
 
 <template>
-  <main class="max-w-[90rem] mx-auto">
+  <main class="max-w-[90rem] mx-auto overflow-x-hidden">
     <slot />
     <Footer />
   </main>
