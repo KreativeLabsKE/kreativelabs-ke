@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-og-image", "@nuxt/image", "nuxt-icon"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "nuxt-og-image",
+    "@nuxt/image",
+    "nuxt-icon",
+    "@nuxtjs/google-fonts",
+  ],
   hooks: {
     "components:dirs": (dirs) => {
       dirs.unshift({
@@ -13,6 +19,17 @@ export default defineNuxtConfig({
         // prevent adding another prefix component by it's path.
         pathPrefix: false,
       });
+    },
+  },
+  googleFonts: {
+    families: {
+      Raleway: {
+        wght: [100, 400],
+        ital: [100],
+      },
+      Agbalum: {
+        wght: [400],
+      },
     },
   },
 });
