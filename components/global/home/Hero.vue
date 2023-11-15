@@ -116,7 +116,7 @@
         </div>
         <!-- End Buttons -->
 
-        <div class="lg:w-[35rem]">
+        <div class="lg:w-[35rem] mx-auto">
           <client-only>
             <Vue3Lottie animationLink="/lotties/welcome.json" />
           </client-only>
