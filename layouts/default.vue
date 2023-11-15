@@ -5,23 +5,26 @@ useHead({
     lang: "en",
   },
   meta: [
-    { property: "og:title", content: `KreativeLabsKE: The Invoice Generator.` },
+    {
+      property: "og:title",
+      content: `KreativeLabsKE: Let's Build Together 🤝.`,
+    },
     {
       name: "description",
-      content: "KreativeLabsKE: The Invoice Generator.",
+      content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
     {
       property: "og:description",
-      content: "Invloo: The Invoice Generator.",
+      content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
     { property: "og:url", content: "https://invloo.vercel.app/" },
     {
       name: "twitter:title",
-      content: "KreativeLabsKE: The Invoice Generator.",
+      content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
     {
       name: "twitter:description",
-      content: "KreativeLabsKE: The Invoice Generator.",
+      content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
     { name: "twitter:site", content: "https://invloo.vercel.app/" },
     {
