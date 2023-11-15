@@ -37,11 +37,11 @@
         <!-- Title -->
         <div class="mt-5 max-w-2xl text-center mx-auto">
           <h1
-            class="block font-extrabold [text-wrap:balance] text-gray-800 text-4xl md:text-5xl lg:text-5xl text-center"
+            class="block font-extrabold [text-wrap:balance] text-gray-800 text-3xl md:text-5xl lg:text-5xl text-center"
           >
             Lets Build
             <span
-              class="inline-flex flex-col items-center h-[calc(theme(fontSize.3xl)*theme(lineHeight.loose))] overflow-hidden"
+              class="inline-flex flex-col items-center h-[calc(theme(fontSize.2xl)*theme(lineHeight.normal))] sm:h-[calc(theme(fontSize.3xl)*theme(lineHeight.loose))] overflow-hidden"
             >
               <ul
                 class="block text-left leading-tight [&_li]:block animate-text-slide"
@@ -116,13 +116,9 @@
         </div>
         <!-- End Buttons -->
 
-        <div>
+        <div class="lg:w-[35rem]">
           <client-only>
-            <Vue3Lottie
-              animationLink="/lotties/welcome.json"
-              :height="500"
-              :width="500"
-            />
+            <Vue3Lottie animationLink="/lotties/welcome.json" />
           </client-only>
         </div>
       </div>
