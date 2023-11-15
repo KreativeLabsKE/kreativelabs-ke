@@ -17,7 +17,7 @@ useHead({
       property: "og:description",
       content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
-    { property: "og:url", content: "https://invloo.vercel.app/" },
+    { property: "og:url", content: "https://kreativelabs-ke.vercel.app/" },
     {
       name: "twitter:title",
       content: "KreativeLabsKE: Let's Build Together 🤝.",
@@ -26,7 +26,7 @@ useHead({
       name: "twitter:description",
       content: "KreativeLabsKE: Let's Build Together 🤝.",
     },
-    { name: "twitter:site", content: "https://invloo.vercel.app/" },
+    { name: "twitter:site", content: "https://kreativelabs-ke.vercel.app/" },
     {
       property: "og:image",
       content: "/icons/favicon-32x32.png",
